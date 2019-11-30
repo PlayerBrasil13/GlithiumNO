@@ -21,10 +21,8 @@ ammo: {
 		shootEffect: lancerLaserShoot
 		smokeEffect: lancerLaserShootSmoke
 		ammoMultiplier: 1
-	}
-}
 requirements: [
-	titanium/50
+	titaniul/50
 	copper/2
 	metaglass/3
 ]
