@@ -1,0 +1,12 @@
+type: resource
+name: Inactive LPDR
+description: '''
+	An inactive mech, made to be used as a blueprint to the mech pad.
+	Can be used as an ammo, if you need high damage.
+'''
+color: 000000
+explosiveness: 6516855654654666
+flammability: 2211548847554
+radioacivity: 651144878522
+hardness: 501143551
+cost: 500000.0
