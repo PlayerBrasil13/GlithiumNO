@@ -14,7 +14,7 @@ ammo: {
 		type: MissileBulletType
 		despawnEffect: overdriveWave
 		lifetime: 850000.0
-		splashDamageRadius: 500
+		splashDamageRadius: 10
 		splashDamage: 560000
 		hitEffect: blastExplosion
 		hitSound: explosionBig
