@@ -1,6 +1,6 @@
 type: ArtilleryTurret
 name: LPDR launcher
-description: A turret that shots LPDRs.
+descripition: A turret that shots LPDRs.
 health: 5000
 size: 2
 reload: 1200
