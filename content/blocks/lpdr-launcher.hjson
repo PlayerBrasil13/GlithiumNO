@@ -3,7 +3,7 @@ name: LPDR launcher
 description: A turret that shots LPDRs.
 health: 5000
 size: 2
-reload: 1200
+reload: 50
 range: 70000
 ammoUseEffect: none
 inaccuracy: 0
