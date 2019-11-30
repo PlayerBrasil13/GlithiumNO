@@ -1,0 +1,9 @@
+type: material
+name: Glithium Powder
+description: An amazing and extremely powerfull material, but it's not in it's powerfullest form.
+color: FF00FF
+explosiveness: 50000
+flammability: 2000
+radioacivity: 30
+hardness: 20
+cost: 100.0

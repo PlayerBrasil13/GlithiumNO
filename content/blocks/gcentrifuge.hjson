@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: Glithium Centrifuge
+description: '''
+	Centrifuges the glithium to create [accent]pure [pink]glithium[].
+	[red]Caution, highly powerfull!
+	'''
+liquidCapacity: 100
+itemCapacity: 200
+outputItem: glithium-powder/1
+outputLiquid: {
+	liquid: water
+	amount: 100
+}
+size: 5
+hasPower: true
+hasLiquids: true
+hasItems: true
+baseExplosiveness: 5
+craftTime: 200
+consumes: {
+	power: 800.0,
+	items: {
+		items: [
+			bglithium/100
+		]
+	}
+}
+requirements: [
+	lead/300
+	graphite/400
+	titanium/200
+]
+category: crafting
+research: coal-centrifuge
+idleSound: empty
+idleSoundVolume: 0.1

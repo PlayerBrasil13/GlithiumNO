@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Glithium Freezer
+description: Freezes the bottled glithium
+liquidCapacity: 50
+outputItem: fglithium/1
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: generatespark
+consumes: {
+	power: 0.7
+	items: {
+		items: [
+			bglithium/1
+			plastanium/1
+		]
+	}
+	liquid: {
+		liquid: cryofluid
+		amount: 2.0
+	}
+}
+requirements: [
+	lead/50
+	thorium/80
+	silicon/60
+]
+category: crafting
+research: glithiumbottler
+idleSound: respawning
+idleSoundVolume: 0.5

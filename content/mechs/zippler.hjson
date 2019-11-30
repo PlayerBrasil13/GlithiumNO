@@ -1,0 +1,24 @@
+name: Zippler
+description: Initial glithium mech, nothing special.
+speed: 2.1
+boostSpeed: 1.3
+buildPower: 1.5
+drillPower: 2.0
+mineSpeed: 5.0
+engineColor: ff7aeb
+engineOffset: 5
+flying: true
+health: 30,
+weaponOffset: -1
+cellTrnsY: -3
+weaponOffsetY: -1
+weapon: {
+	name: zblaster
+	homingRange: 120
+	homingPower: 7
+	length: 1.5
+	reload: 15
+	alternate: true
+	ejectEffect: shellEjectSmall
+	bullet: standardGlaive
+}

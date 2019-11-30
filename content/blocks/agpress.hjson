@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Glithium Ammo Press
+description: A gigantic press that compresses glithium, blast compound and a bit of thorium and coats with metaglass.
+liquidCapacity: 100
+itemCapacity: 40
+outputItem: aglithium/1
+size: 8
+hasPower: true
+hasLiquids: true
+hasItems: true
+baseExplosiveness: 1
+craftTime: 20
+consumes: {
+	power: 20
+	items: {
+		items: [
+			metaglass/4
+			thorium/1
+			blast-compound/2
+		]
+	}
+	liquid: {
+		liquid: glithium
+		amount: 1
+	}
+}
+requirements: [
+	titanium/850
+	copper/920
+	plastanium/60
+]
+category: crafting
+research: glithiumfreezer
+idleSound: explosionbig
+idleSoundVolume: 1

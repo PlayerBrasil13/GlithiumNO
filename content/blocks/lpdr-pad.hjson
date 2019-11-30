@@ -1,0 +1,22 @@
+name: Little Pink Death Reaper Mech Pad
+description: Transforms your ship into an extremely fast mech.
+type: MechPad
+mech: lpdr
+size: 1
+hasItems: true
+itemCapacity: 2000
+consumes: {
+	power: 500.0
+	items: {
+		items: [
+			copper/2000
+		]
+	}
+}
+category: upgrade
+research: tau-mech-pad
+requirements: [
+	fglithium/120
+	silicon/40
+	graphite/50
+]

@@ -1,0 +1,27 @@
+type: Cultivator
+name: Glithium Generator
+description: Somehow, uses power to create glithium.
+liquidCapacity: 50
+outputLiquid: {
+	liquid: glithium
+	amount: 10
+}
+craftTime: 50
+recurrence: 2
+craftEffect: hitLiquid
+size: 6
+hasPower: true
+hasLiquids: true
+consumes: {
+	power: 10.0
+}
+requirements: [
+	copper/560
+	plastanium/980
+	silicon/40
+]
+category: crafting
+research: plastanium-compressor
+idleSound: zap
+idleSoundVolume: 0.1
+flameColor: ffd4fa

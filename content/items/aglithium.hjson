@@ -1,0 +1,9 @@
+type: resource
+name: Glithium Ammo
+description: An extremely destructible ammo, made with the power of glithium.
+color: e09eff
+explosiveness: 2
+flammability: 0.2
+radioacivity: 0.3
+hardness: 5
+cost: 2.0

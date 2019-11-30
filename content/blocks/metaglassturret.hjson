@@ -1,0 +1,50 @@
+type: ArtilleryTurret
+name: Metaglass Turret
+description: A strong turret made of metaglass.
+health: 5000
+size: 4
+reload: 2.5
+range: 300
+ammoUseEffect: shellEjectSmall
+targetAir: true
+inaccuracy: 0
+rotatespeed: 0.2
+ammo: {
+	bglithium: {
+		speed: 5.0
+		damage: 40.0
+		bulletWidth: 20
+		bulletHeight: 15
+		shootEffect: shootBig
+		smokeEffect: shootBigSmoke
+		ammoMultiplier: 1
+	}
+	fglithium: {
+		speed: 10.0
+		damage: 80.0
+		bulletWidth: 5
+		bulletHeight: 4
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 5
+	}
+	aglithium: {
+		type: BasicBulletType
+		bulletSprite: glithium-mod-gbullet
+		despawnEffect: overdriveWave
+		lifetime: 1000
+		speed: 20.0
+		damage: 800.0
+		bulletWidth: 5
+		bulletHeight: 15
+		shootEffect: lancerLaserShoot
+		smokeEffect: lancerLaserShootSmoke
+		ammoMultiplier: 1
+	}
+}
+requirements: [
+	metaglass/100
+	copper/2
+]
+category: turret
+research: duo

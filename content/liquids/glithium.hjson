@@ -1,0 +1,8 @@
+name: Glithium
+description: Purple misterious liquid, inittially there are not known uses of it, but we're here to discover.
+temperature: 0.5
+flammability: 0.3
+heatCapacity: 0.7
+viscosity: 0.1
+effect: overdrive
+color: 8546de

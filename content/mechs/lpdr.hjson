@@ -1,0 +1,39 @@
+name: Little Pink Death Reaper
+description: A little flying mech, extremelly fast and durable.
+speed: 5.1
+boostSpeed: 5.3
+buildPower: 8.0
+drillPower: -1.0
+mineSpeed: 0.0
+engineColor: ff00ff
+engineOffset: 5
+flying: true
+health": 5000
+weaponOffsetX: 1
+weapon: {
+	name: sicle
+	homingRange: 120
+	homingPower: 7
+	length: 1
+	reload: 50
+	alternate: false
+	bullet: {
+		type: MissileBulletType
+		lifetime: 100
+		damage: 5000
+		speed: 2
+		splashDamageRadius: 20
+		splashDamage: 90
+		frontColor: ff00e6
+		backColor: ffd1fb
+		homingPower: 7
+		homingRange: 120
+		fragBullets: 10
+		fragBullet: {
+			type: LiquidBulletType
+			liquid: slag
+			lifetime: 5
+			speed: 7
+		}
+	}
+}
