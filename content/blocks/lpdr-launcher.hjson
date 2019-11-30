@@ -14,10 +14,14 @@ ammo: {
 		type: MissileBulletType
 		despawnEffect: overdriveWave
 		lifetime: 850000.0
+		splashDamageRadius: 500
+		splashDamage: 560000
+		hitEffect: blastExplosion
+		hitSound: explosionBig
 		speed: 1.0
 		damage: 520000000
-		bulletWidth: 1
-		bulletHeight: 1
+		bulletWidth: 10
+		bulletHeight: 10
 		shootEffect: lancerLaserShoot
 		smokeEffect: lancerLaserShootSmoke
 		ammoMultiplier: 1
