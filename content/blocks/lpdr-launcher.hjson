@@ -3,7 +3,7 @@ name: LPDR launcher
 description: A turret that shots LPDRs.
 health: 5000
 size: 2
-reload: 50
+reload: 1200
 range: 70000
 ammoUseEffect: none
 inaccuracy: 0
@@ -14,14 +14,10 @@ ammo: {
 		type: MissileBulletType
 		despawnEffect: overdriveWave
 		lifetime: 850000.0
-		splashDamageRadius: 10
-		splashDamage: 560000
-		hitEffect: blastExplosion
-		hitSound: explosionBig
 		speed: 1.0
 		damage: 520000000
-		bulletWidth: 10
-		bulletHeight: 10
+		bulletWidth: 1
+		bulletHeight: 1
 		shootEffect: lancerLaserShoot
 		smokeEffect: lancerLaserShootSmoke
 		ammoMultiplier: 1
