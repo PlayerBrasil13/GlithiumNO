@@ -1,6 +1,6 @@
 type: ArtilleryTurret
 name: LPDR launcher
-descripition: A turret that shots LPDRs.
+description: A turret that shots LPDRs.
 health: 5000
 size: 2
 reload: 1200
@@ -21,8 +21,10 @@ ammo: {
 		shootEffect: lancerLaserShoot
 		smokeEffect: lancerLaserShootSmoke
 		ammoMultiplier: 1
+	}
+}
 requirements: [
-	titaniul/50
+	titanium/50
 	copper/2
 	metaglass/3
 ]
