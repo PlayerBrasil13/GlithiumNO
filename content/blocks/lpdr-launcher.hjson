@@ -1,0 +1,32 @@
+type: ArtilleryTurret
+name: LPDR launcher
+description: A turret that shots LPDRs.
+health: 5000
+size: 2
+reload: 1200
+range: 70000
+ammoUseEffect: none
+inaccuracy: 0
+recoil: 0
+rotatespeed: 50
+ammo: {
+	inactive-lpdr: {
+		type: MissileBulletType
+		despawnEffect: overdriveWave
+		lifetime: 850000.0
+		speed: 1.0
+		damage: 520000000
+		bulletWidth: 1
+		bulletHeight: 1
+		shootEffect: lancerLaserShoot
+		smokeEffect: lancerLaserShootSmoke
+		ammoMultiplier: 1
+	}
+}
+requirements: [
+	titanium/50
+	copper/2
+	metaglass/3
+]
+category: turret
+research: metaglassturret
