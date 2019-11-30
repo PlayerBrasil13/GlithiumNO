@@ -18,7 +18,6 @@ ammo: {
 		splashDamage: 560000
 		hitEffect: blastExplosion
 		hitSound: explosionBig
-		homingRange: 50000
 		speed: 1.0
 		damage: 520000000
 		bulletWidth: 10
