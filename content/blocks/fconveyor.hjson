@@ -14,3 +14,7 @@ itemCapacity: 5
 idleSound: conveyor
 idleSoundVolume: 0.001
 unloadable: false
+requirements: [
+  copper/5
+]
+research: coreShard
