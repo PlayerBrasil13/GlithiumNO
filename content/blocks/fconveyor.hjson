@@ -17,4 +17,4 @@ unloadable: false
 requirements: [
   copper/5
 ]
-research: coreShard
+research: core-shard
