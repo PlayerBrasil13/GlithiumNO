@@ -1,5 +1,6 @@
 name: Floating Conveyor
 description: A conveyor that floats!
+type: conveyor
 floating: true
 speed: 0.01
 rotate: true
