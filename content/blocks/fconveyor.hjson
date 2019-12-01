@@ -5,7 +5,8 @@ floating: true
 speed: 0.01
 rotate: true
 update: true
-layer: none
+layer: overlay
+drawItems: false
 group: transportation
 hasItems: true
 itemCapacity: 5
