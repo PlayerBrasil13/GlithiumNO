@@ -1,0 +1,13 @@
+name: Floating Conveyor
+description: A conveyor that floats!
+floating: true
+speed: 0.01
+rotate: true
+update: true
+layer: none
+group: transportation
+hasItems: true
+itemCapacity: 5
+idleSound: conveyor
+idleSoundVolume: 0.001
+unloadable: false
