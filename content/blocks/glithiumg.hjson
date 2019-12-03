@@ -1,10 +1,10 @@
 type: Cultivator
 name: Glithium Generator
 description: Somehow, uses power to create glithium.
+drawLiquids: false
 liquidCapacity: 50
 outputLiquid: {
-	liquid: glithium
-	amount: 10
+	glithium/10
 }
 craftTime: 50
 recurrence: 2
