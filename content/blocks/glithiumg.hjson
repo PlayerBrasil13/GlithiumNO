@@ -3,9 +3,7 @@ name: Glithium Generator
 description: Somehow, uses power to create glithium.
 drawLiquids: false
 liquidCapacity: 50
-outputLiquid: {
-	glithium/10
-}
+outputLiquid: glithium/10
 craftTime: 50
 recurrence: 2
 craftEffect: hitLiquid
