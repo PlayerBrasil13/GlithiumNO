@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Glithium Generator
 description: Somehow, uses power to create glithium.
 liquidCapacity: 50
