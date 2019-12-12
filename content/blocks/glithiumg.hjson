@@ -4,8 +4,6 @@ description: Somehow, uses power to create glithium.
 liquidCapacity: 50
 outputLiquid: glithium/10
 craftTime: 50
-recurrence: 2
-craftEffect: hitLiquid
 size: 6
 hasPower: true
 hasLiquids: true
