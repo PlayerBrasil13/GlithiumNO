@@ -1,7 +1,6 @@
-type: Cultivator
+type: GenericSmelter
 name: Glithium Generator
 description: Somehow, uses power to create glithium.
-drawLiquids: false
 liquidCapacity: 50
 outputLiquid: glithium/10
 craftTime: 50
@@ -18,8 +17,7 @@ requirements: [
 	plastanium/980
 	silicon/40
 ]
-category: crafting
+category: production
 research: plastanium-compressor
 idleSound: zap
 idleSoundVolume: 0.1
-flameColor: ffd4fa

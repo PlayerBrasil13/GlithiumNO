@@ -8,7 +8,7 @@ hasPower: true
 hasLiquids: true
 hasItems: true
 craftTime: 60
-updateEffect: generatespark
+updateEffect: none
 consumes: {
 	power: 0.7
 	items: {

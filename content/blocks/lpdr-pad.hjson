@@ -6,17 +6,17 @@ size: 1
 hasItems: true
 itemCapacity: 2000
 consumes: {
-	power: 500.0
+	power: 700.0
 	items: {
 		items: [
-			copper/2000
+			inactive-lpdr/1
 		]
 	}
 }
 category: upgrade
 research: tau-mech-pad
 requirements: [
-	fglithium/120
+	glithium-powder/20
 	silicon/40
 	graphite/50
 ]
