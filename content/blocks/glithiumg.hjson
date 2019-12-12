@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: GenericSmelter
 name: Glithium Generator
 description: Somehow, uses power to create glithium.
 liquidCapacity: 50
@@ -7,6 +7,7 @@ craftTime: 50
 size: 6
 hasPower: true
 hasLiquids: true
+flamecolor: 9965E4
 consumes: {
 	power: 10.0
 }
