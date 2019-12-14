@@ -9,6 +9,7 @@ hasLiquids: true
 hasItems: true
 craftTime: 60
 updateEffect: none
+flameColor: 0000ff
 consumes: {
 	power: 0.7
 	items: {
