@@ -7,7 +7,7 @@ craftTime: 50
 size: 6
 hasPower: true
 hasLiquids: true
-flameColor: 9965E4
+flameColor: ffff00
 consumes: {
 	power: 10.0
 }
